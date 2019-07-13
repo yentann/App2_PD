@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewNorth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtNorthCourt"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/imageViewCompetition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/dine1" />
+
+            <TextView
+                android:id="@+id/textViewCompetition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtViewNorthOh"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewNorthTerm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtViewNothTerm"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewLawnCourt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/txtLawnCourt"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/imageViewLawn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/dine5" />
+
+            <TextView
+                android:id="@+id/textViewLawnOh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtViewLawnOh"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewLawnTerm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtViewLawnTerm"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewSouthCourt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/txtViewSouthCourt"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/imageViewSouth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/dine4" />
+
+            <TextView
+                android:id="@+id/textViewSouthOh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtViewSouthOh"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewSouthTerm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtViewSouthTerm"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewSouthVa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtViewSouthVa"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/textViewCafeT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/txtViewCageT"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/imageViewCafe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/dine3" />
+
+            <TextView
+                android:id="@+id/textViewCafeLOh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtViewCafeOh"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewCafeTerm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtViewCafeTerm"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewCafeVa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtViewCafeVa"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewCafeLibraryTerm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/txtCafeLibrary"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/imageViewCafeLibrary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/dine2" />
+
+            <TextView
+                android:id="@+id/textViewCafeLibraryOh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtViewCafeLibraryOh"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewLibraryTerm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtViewCafeLibraryTerm"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewLibraryVacation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtViewLibraryVacation"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewSushi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:baselineAligned="false"
+                android:text="@string/txtViewSushi"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/imageViewSushi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/dine6" />
+
+            <TextView
+                android:id="@+id/textViewSushOh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtViewSushiOh"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewSushiTerm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/txtViewSushiTerm"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">RPNAV</string>
+
+    <string name="btnNext">NEXT</string>
+    <string name="btnCampus" />
+    <string name="btnSports" />
+    <string name="btnFacility" />
+    <string name="btnDining" />
+    <string name="btnOthers" />
+    <string name="btnContactUs" />
+
+
+
+    <string name="txtViewAgora">Agora Halls</string>
+    <string name="txtViewAgoranHall">The four Agora Halls are fully-carpeted and air-conditioned exhibition halls located right at the centre of RP. When required, two halls can be merged into one big venue with an area of 1,700 square metres.</string>
+
+    <string name="txtViewExhibitionHall">Exhibition Hall</string>
+    <string name="txtViewExhibition">Exhibition Hall has an area of 320m2 . It is air-conditioned, comes with high-ceiling and timber flooring. Located at E3 Level 3, visitors have easy access to the lush greenery of the Republic Polytechnic’s lawn</string>
+
+    <string name="txtViewLectureTheatre">Lecture Theatre</string>
+    <string name="txtViewLecture">Located at W2 and E5, the two lecture theatres are furnished with cushioned seats, built-in sound system, high resolution projection, and warm and adaptable ambience lights.</string>
+
+    <string name="txtViewLectureRoom">Lecture Room</string>
+    <string name="txtViewLecture1">Situated at W4, the two 178-seater lecture rooms are complete with velvet-cushioned seats, a well-furnished stage, sound system, projector and rostrum (with microphone) for hosting seminars, talks and presentations.</string>
+    <string name="txtLecture2">There are five smaller lecture rooms located across the east and west wings of the campus. These 100-seater rooms are furnished with velvet-cushioned seats, staging, sound system, projector and rostrum (with microphone) for hosting small-scale seminars, talks and presentations.</string>
+
+    <string name="txtViewSmartRoom">Smart Lecture Room</string>
+    <string name="txtViewSmart">Featuring two 5000 lumens projectors and individual built-in microphones for all 64 seated guests, the smart lecture room facilitates interactions between the presenter and the participants, making it an ideal venue for dialogue sessions and conferences.</string>
+
+    <string name="txtViewFacilitationRoom">Facilitation Rooms</string>
+    <string name="txtViewFacilitation">These rooms are equipped with projectors and whiteboards, and can seat 25 people with an additional table for the presenter. Comfortable and compact, these facilitation rooms provide a conducive classroom setting for conducting training and lessons.</string>
+
+    <string name="txtNorthCourt">North Food Court</string>
+    <string name="txtViewNorthOh">Operating Hours</string>
+    <string name="txtViewNothTerm">Term: Monday - Friday: 7:00am - 7:00pm Saturday: 7:00am - 2:00pm</string>
+
+    <string name="txtLawnCourt">Lawn Food Court</string>
+    <string name="txtViewLawnOh">Operating Hours</string>
+    <string name="txtViewLawnTerm">Term: Monday - Friday: 7:00am - 7:00pm Saturday: 7:30am - 2:00pm</string>
+
+    <string name="txtViewSouthCourt">South Food Court</string>
+    <string name="txtViewSouthOh">Operating Hours</string>
+    <string name="txtViewSouthTerm">Term: Monday - Friday: 7:00am - 7:00pm Saturday: 7:30am - 2:00pm</string>
+    <string name="txtViewSouthVa">Vacation: Monday - Friday: 7:00am - 7:00pm Saturday: 7:30am - 2:00pm</string>
+
+    <string name="txtViewCageT">Café @ TRCC</string>
+    <string name="txtViewCafeOh">Operating Hours</string>
+    <string name="txtViewCafeTerm">Term: Monday - Friday: 9:00am - 9:00pm Saturday: 10:00am - 8:00pm</string>
+    <string name="txtViewCafeVa">Vacation: Monday - Friday: 9:00am - 9:00pm Saturday: 10:00am - 8:00pm</string>
+
+    <string name="txtCafeLibrary">FS Café @ Library</string>
+    <string name="txtViewCafeLibraryOh">Operating Hours</string>
+    <string name="txtViewCafeLibraryTerm">Term: Monday - Friday: 9:00am - 9:00pm</string>
+    <string name="txtViewLibraryVacation">Vacation: Monday - Friday: 9:00am - 5:30pm</string>
+
+    <string name="txtViewSushi">Sushi Tea</string>
+    <string name="txtViewSushiOh">Operating Hours</string>
+    <string name="txtViewSushiTerm">Term: Monday - Friday: 8:00am - 6:00pm</string>
+
+    <string name="txtViewSportsComplex">Sports Complex</string>
+    <string name="txtViewSportstxt">Proudly known as Home of the Republic, our sports complex is built to international standards set by sporting bodies such as the International Basketball Federation (FIBA) and Federation Internationale de Football Association (FIFA) so you can enjoy the facilities like professional athletes do!</string>
+
+    <string name="txtViewBadmintonHall"><![CDATA[Badminton & Table Tennis Hall]]></string>
+    <string name="txtViewBadmintontxt">The badminton and table tennis hall consists of 6 badminton courts and 6 table tennis tables. When the badminton courts are not in use, it can be transformed into an indoor netball court.</string>
+
+    <string name="txtViewPurposeHall">Multi-Purpose Hall</string>
+    <string name="txtViewPurposetxt">The multi-purpose hall is fully air-conditioned and can hold up to 500 people.   It is an excellent ground for holding any type of indoor competition or event. This hall is a favourite ground for many floorball players!</string>
+
+    <string name="txtViewTennis"><![CDATA[Tennis Court & Outdoor Courts]]></string>
+    <string name="txtViewTennisetxt">Play a game of tennis with your friends at any of our four tennis courts. Alternatively, sweat it out with a game of basketball or futsal at the outdoor courts just close by!</string>
+
+    <string name="txtViewFootball">Football / Rugby Field</string>
+    <string name="txtViewFootballtxt">The football / rugby field has a seating gallery built to house a crowd of approximately 1000 spectators. Seated at the highest point of RP, this venue provides spectators an excellent panoramic view of the field.</string>
+
+    <string name="txtViewSwimming">Swimming Complex</string>
+    <string name="txtViewSwimmingtxt">An Olympic-size swimming pool, a warm-up pool and a baby wading pool, are available for all RP staff and students. These pools are complemented by a 300 pax capacity viewing gallery.</string>
+
+    <string name="txtViewMarital">Martial Arts Room</string>
+    <string name="txtViewMartialtxt">The martial arts room is able to house any event consisting of up to 200 participants. Tatami mats are provided for all users of the Martial Arts Room. Learn self-defense or practise taekwondo, judo or aikido right here!</string>
+
+    <string name="txtViewemailicon">Email: one-stop@rp.edu.sg</string>
+    <string name="txtViewphoneicon">Phone: 6510 3000 8:00am – 6:00pm, Monday – Friday  (Till 12:30pm on the eve of Christmas, New Year and Chinese New Year)</string>
+
+    <string name="txtViewcountericon">Counter:  8:00am – 8:00pm, Monday – Friday  (Till 5:00pm on the eve of Christmas, New Year and Chinese New Year) 8:00am - 1:00pm, Saturday</string>
+    <string name="txtViewaddressicon">Address: 9 Woodlands Avenue 9, Singapore 738964</string>
+
+    <string name="txtViewServices">SERVICES</string>
+
+
+</resources>

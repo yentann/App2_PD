@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageViewEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            app:srcCompat="@drawable/email" />
+
+        <TextView
+            android:id="@+id/emailicon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtViewemailicon"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"/>
+
+        <ImageView
+            android:id="@+id/imageViewPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/call"
+            android:layout_marginTop="50dp"
+            />
+
+        <TextView
+            android:id="@+id/phoneicon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtViewphoneicon"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"/>
+
+        <ImageView
+            android:id="@+id/imageViewcounter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/reception"
+            android:layout_marginTop="50dp"
+            />
+
+        <TextView
+            android:id="@+id/countericon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtViewcountericon"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"/>
+
+        <ImageView
+            android:id="@+id/imageViewaddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/address"
+            android:layout_marginTop="50dp"
+            />
+
+        <TextView
+            android:id="@+id/addressicon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtViewaddressicon"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

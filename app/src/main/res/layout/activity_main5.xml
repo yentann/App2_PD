@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textViewSportsComplex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtViewSportsComplex"
+                android:layout_marginTop="15dp"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textViewSportstxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtViewSportstxt"
+                android:textAlignment="center"
+                android:layout_marginBottom="30dp"
+
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewBadmintonHall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/txtViewBadmintonHall"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/imageViewBadminton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/tabletennis" />
+
+            <TextView
+                android:id="@+id/textViewBadmintontxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtViewBadmintontxt"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewPurposeHall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/txtViewPurposeHall"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/imageViewPurpose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/floorballcoourt" />
+
+            <TextView
+                android:id="@+id/textViewPurposetxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtViewPurposetxt"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewTennis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/txtViewTennis"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/imageViewTennis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/court1" />
+
+            <TextView
+                android:id="@+id/textViewTennistxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtViewTennisetxt"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewFootball"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/txtViewFootball"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/imageViewFootball"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/court2" />
+
+            <TextView
+                android:id="@+id/textViewFootballtxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtViewFootballtxt"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewSwimming"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/txtViewSwimming"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/imageViewSwimming"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/sport1" />
+
+
+            <TextView
+                android:id="@+id/textViewSwimmingtxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtViewSwimmingtxt"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewMartial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/txtViewMarital"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/imageViewMartial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/sport2" />
+
+            <TextView
+                android:id="@+id/textViewMartialtxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtViewMartialtxt"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_marginBottom="20dp"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

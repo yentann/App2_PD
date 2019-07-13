@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/btnCampus"
+                android:layout_width="match_parent"
+                android:layout_height="286dp"
+                android:background="@drawable/campus"
+                android:text="@string/btnCampus"
+                android:textColor="@android:color/black"
+                android:textSize="45sp"
+                tools:text="@string/btnCampus" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <Button
+                android:id="@+id/btnFacility"
+                android:layout_width="match_parent"
+                android:layout_height="286dp"
+                android:background="@drawable/facilities"
+                android:text="@string/btnFacility" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/btnDining"
+                android:layout_width="match_parent"
+                android:layout_height="286dp"
+                android:background="@drawable/dine7"
+                android:text="@string/btnDining"
+                android:textColor="@android:color/black"
+                android:textSize="45sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/btnSports"
+                android:layout_width="match_parent"
+                android:layout_height="286dp"
+                android:background="@drawable/sportscomplex"
+                android:text="@string/btnSports"
+                android:textColor="@android:color/black"
+                android:textSize="45sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/btnOthers"
+                android:layout_width="match_parent"
+                android:layout_height="286dp"
+                android:background="@drawable/others"
+                android:text="@string/btnOthers"
+                android:textColor="@android:color/black"
+                android:textSize="45sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/btnContactus"
+                android:layout_width="match_parent"
+                android:layout_height="286dp"
+                android:background="@drawable/contactus"
+                android:text="@string/btnContactUs"
+                android:textColor="@android:color/black"
+                android:textSize="45sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

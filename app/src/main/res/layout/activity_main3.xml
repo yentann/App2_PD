@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textViewAgora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtViewAgora"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/imageViewAgora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/room5" />
+
+            <TextView
+                android:id="@+id/textViewAgoraHall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtViewAgoranHall"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/txtViewExhibitionHall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/txtViewExhibitionHall"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/imageViewExhibition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/room4" />
+
+            <TextView
+                android:id="@+id/textViewExhibition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="@string/txtViewExhibition" />
+
+
+            <TextView
+                android:id="@+id/txtViewSouth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/txtViewLectureTheatre"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/imageViewLecturetheatre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/room3" />
+
+            <TextView
+                android:id="@+id/textViewLecturetheatre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="@string/txtViewLecture" />
+
+            <TextView
+                android:id="@+id/textViewLectureRoom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/txtViewLectureRoom"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/imageViewLecture1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/room1" />
+
+            <TextView
+                android:id="@+id/emailicon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="@string/txtViewLecture1" />
+
+            <ImageView
+                android:id="@+id/imageViewLecture2"
+                android:layout_width="match_parent"
+                android:layout_height="222dp"
+                app:srcCompat="@drawable/room6"
+                android:layout_marginTop="15dp"
+                />
+
+            <TextView
+                android:id="@+id/textViewLectureRoom2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:text="@string/txtLecture2" />
+
+            <TextView
+                android:id="@+id/textViewSmartRoom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textColor="@android:color/black"
+                android:text="@string/txtViewSmartRoom"
+                android:textAlignment="center"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/imageViewSmart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/room2" />
+
+            <TextView
+                android:id="@+id/textViewSmart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtViewSmart"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/textViewFacilitiesRoom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtViewFacilitationRoom"
+                android:layout_marginTop="15dp"
+                android:textColor="@android:color/black"
+                android:textAlignment="center"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/imageViewFacilitation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/faciroom" />
+
+            <TextView
+                android:id="@+id/textViewFacilitation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtViewFacilitation"
+                android:textAlignment="center"
+                android:layout_marginBottom="20dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
